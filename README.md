@@ -2,7 +2,7 @@
 ### Introduction
 This project entails the fine-tuning of the [popular DeepLabv3 PyTorch implementation](https://pytorch.org/vision/main/models/generated/torchvision.models.segmentation.deeplabv3_resnet50.html) using the ResNet50 backbone. It makes use of the fine Cityscapes labels for more realistic real-life scenarios. With the parameters defined in the training notebook, the model achieved **~62%** mIoU performance. See [report.pdf](report.pdf) for the paper associated with this project.
 
-### Setup
+## Setup
 The model was conceptualized using 1x H100 80GB GPU, while the final training run was executed on 8x A100 40GB GPUs.
 
 ### Setup: How to use
@@ -25,7 +25,7 @@ matplotlib
 numpy
 cityscapesscripts
 ```
-
+## Tutorial
 ### Tutorial: Dataset preparation
 Step 1: Download the dataset using [download_dataset.ipynb](src/download_dataset.ipynb). You require a Cityspaces account which can be created [here](https://www.cityscapes-dataset.com/), in which you will be prompted your login information when running the notebook.
 
