@@ -1,0 +1,6 @@
+# Project exclude paths
+/src/data/gtFine/
+/src/data/gtFine_trainvaltest/
+/src/data/leftImg8bit/
+/src/data/leftImg8bit_trainvaltest/
+/src/hymenoptera_data/
